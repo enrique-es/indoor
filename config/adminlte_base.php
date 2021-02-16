@@ -234,18 +234,17 @@ return [
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
         ],
-
-        ['header' => 'VISTAS'],
         [
             'text' => 'clima',
             'url'  => 'clima',
             'icon' => 'far fa-fw fas fa-thermometer-three-quarters',
-            //'icon_color' => 'teal',
+            'icon_color' => 'info',
         ],
         [
             'text' => 'actuadores',
             'url'  => 'actuadores',
             'icon' => 'far fa-fw fas fa-fan',
+            'icon_color' => 'success',
         ],
         [
             'text' => 'históricos',
@@ -257,6 +256,13 @@ return [
             'url'  => 'configuracion',
             'icon' => 'far fa-fw fas fa-tools',
         ],
+        [
+            'text'        => 'pages',
+            'url'         => 'admin/pages',
+            'icon'        => 'far fa-fw fa-file',
+            'label'       => 4,
+            'label_color' => 'success',
+        ],
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
@@ -267,6 +273,23 @@ return [
             'text' => 'change_password',
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
+        ],
+
+        ['header' => 'labels'],
+        [
+            'text'       => 'important',
+            'icon_color' => 'red',
+            'url'        => '#',
+        ],
+        [
+            'text'       => 'warning',
+            'icon_color' => 'yellow',
+            'url'        => '#',
+        ],
+        [
+            'text'       => 'information',
+            'icon_color' => 'cyan',
+            'url'        => '#',
         ],
     ],
 

@@ -25,8 +25,20 @@ class HomeController extends Controller
     {
         return view('home');
     }
-    public function prueba()
+    public function clima()
     {
-        return view('prueba');
+        return view('vistas.clima');
+    }
+    public function actuadores()
+    {
+        return view('vistas.actuadores');
+    }
+    public function historicos()
+    {
+        return view('vistas.historicos');
+    }
+    public function configuracion()
+    {
+        return view('vistas.configuracion');
     }
 }
