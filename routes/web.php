@@ -20,9 +20,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/prueba', 'HomeController@prueba')->name('prueba');
 
-Route::get('/clima', 'EstadosController@index')->name('clima');
-Route::get('/actuadores', 'HomeController@actuadores')->name('actuadores');
+Route::get('/clima', 'ClimaController@index')->name('clima');
+Route::get('/actuadores', 'ActuadoresController@index')->name('actuadores');
+
 Route::get('/historicos', 'HomeController@historicos')->name('historicos');
 Route::get('/configuracion', 'HomeController@configuracion')->name('configuracion');

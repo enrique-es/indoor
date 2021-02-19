@@ -225,7 +225,7 @@ return [
 
     'menu' => [
         [
-            'text' => 'search',
+            'text' => 'IndoorCrop',
             'search' => false,
             'topnav' => false,
         ],

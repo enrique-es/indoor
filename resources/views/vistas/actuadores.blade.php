@@ -8,6 +8,12 @@
 
 @section('content')
 
+<?php
+    foreach ($data as $valor) {
+        echo $valor->ventilador . ",";
+    }
+?>
+
 @stop
 
 @section('css')
